@@ -1,0 +1,309 @@
+/* Подготовка стилизации */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f9f9f9; /* Нежный фон для всего тела */
+    color: #333; /* Цвет текста */
+  }
+  
+  img {
+    max-width: 100%; /* Изменено на 100% для адекватного отображения */
+    display: block;
+}
+  
+    .container {
+      max-width: 1100px;
+      margin:0 auto;
+    }
+  
+    /* Конец подготовки */
+
+    /* Стилизация main */
+    .main__wrapper {
+        display: flex;
+        justify-content: center;
+        padding: 20px; /* Добавлен отступ */
+      }
+    
+      .description__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    
+      .akadem {
+        position:absolute;
+        z-index:-1;
+      }
+    
+      .main-text {
+        font-size:20px;
+        font-size: 24px; /* Увеличен размер шрифта */
+        font-weight: bold; /* Установлено жирное начертание */
+        margin: 10px 0; /* Добавлен отступ сверху и снизу */
+        text-align: center; /* Центрированный текст */
+      }
+
+      .text-description1 {
+        font-size:20px;
+      }
+    
+      .subtitle-text {
+        font-size:20px;
+        font-weight: 800;
+      }
+    
+      .hidden1 {
+        display: none;
+      }
+    
+      .logo {
+        position: relative;
+        top:120px;
+        width:100px;
+      }
+    
+    .buy-button {
+    background-color: #ffd000;
+    color: #33ff00;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 5px rgba(0, 140, 255, 0.8);
+    }
+    
+    
+    .buy-button:hover {
+    background-color: #ee5253;
+    box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.637);
+    }
+    
+    .my-section {
+    background-image: url("Akadem.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #050505;
+    text-align: center;
+    }
+    
+    h2 {
+    margin-top: 200px;
+    font-size: 30px; /* измените это значение на нужный вам размер шрифта */
+    }
+    
+    h5 {
+    font-size: 20px; /* измените это значение на нужный вам размер шрифта */
+    }
+    
+    p {
+    font-size: 50px; /* измените это значение на нужный вам размер шрифта */
+    text-align:center;
+    }
+    
+    .form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding:0 10px;
+    }
+    
+    
+    .formas {
+      width:200px;
+      height:20px;
+      border-radius:15px;
+      text-align:center;
+    }
+    
+    
+    .span {
+      color: #002fff;
+      text-decoration:underline;
+    }
+    
+    .emailform {
+      font-size:20px;
+      color: #ff5100;
+    }
+    
+    .btn {
+      width: 200px;
+    }
+    
+    button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 30px auto ;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    
+    .email-button {
+    display: block;
+    width: 110px;
+    height: 50px;
+    margin: 0 auto 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    }
+    
+    input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+    background-color: #45a049;
+    }
+    
+    form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    label, input, textarea {
+    margin: 8px 0;
+    width: 50%;
+    box-sizing: border-box;
+    }
+    
+    .main-text {
+      font-size:30px;
+    }
+    
+    p {
+    max-width: 1400px; /* измените это значение на нужную вам ширину */
+    font-size: 50px; /* измените это значение на нужный вам размер шрифта */
+    line-height: 1.2; /* измените это значение на нужный вам интервал между строками */
+    }
+    
+    .text-container {
+    position: relative; /* добавьте это свойство, чтобы изменить положение элемента */
+    top: 50px; /* измените это значение на нужное вам смещение */
+    }
+    
+    h2 {
+    margin-top: 300px;
+    }
+    
+    input[type="submit"] {
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #002fff;
+    }
+     
+     
+     #my-button {
+      display: block;
+      margin: 0 auto;
+    }
+    
+    body {
+        text-align: center;
+      }
+    
+      .btn2:hover {
+        color: #007bff;
+        transition: 0.5s ease;
+      }
+    
+      .my-text {
+        text-align: center;
+      }
+    
+      .footer__wrapper {
+        display: flex;
+        justify-content:space-around;
+      }
+    
+      #player {
+        width: 800px;
+        height: 450px;
+        margin: auto;
+      }
+    
+     
+    /* Конец стилизации main */
+
+    /* Адаптив */
+    @media (min-width:200px) and (max-width:1100px) {
+    
+        .hidden {
+          display: none;
+        }
+    
+        .hidden1 {
+          display: block;
+        }
+    
+        body {
+          background-color: yellow;
+          position: absolute;
+          top:-220px;
+        }
+    
+        .description__wrapper {
+          display: flex;
+          width:300px;
+          position: relative;
+          left:30px;
+        }
+    
+        
+        .main-text {
+          font-size:30px;
+        }
+    
+        .akadem {
+          display: none;
+        }
+    
+    
+        .p {
+          font-size:5px;
+          width:10px;
+        }
+    
+        .text {
+          display: flex;
+          justify-content: center;
+          margin-bottom:50px;
+        }
+    
+        .form {
+          display: flex;
+          margin-bottom:50px;
+        }
+      }
+    /* Конец адаптива */

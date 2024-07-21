@@ -10,12 +10,12 @@
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #f9f9f9; /* Нежный фон для всего тела */
+    background-color: #d9ff00; /* Нежный фон для всего тела */
     color: #333; /* Цвет текста */
   }
   
   img {
-    max-width: 100%; /* Изменено на 100% для адекватного отображения */
+    max-width:100%; /* Изменено на 100% для адекватного отображения */
     display: block;
 }
   
@@ -30,7 +30,6 @@
     .main__wrapper {
         display: flex;
         justify-content: center;
-        padding: 20px; /* Добавлен отступ */
       }
     
       .description__wrapper {
@@ -50,6 +49,16 @@
         font-weight: bold; /* Установлено жирное начертание */
         margin: 10px 0; /* Добавлен отступ сверху и снизу */
         text-align: center; /* Центрированный текст */
+      }
+
+      .description {
+        display: flex;
+        align-items: center;
+      }
+
+      .text-description {
+        display: flex;
+        flex-direction: column;
       }
 
       .text-description1 {
@@ -258,52 +267,28 @@
 
     /* Адаптив */
     @media (min-width:200px) and (max-width:1100px) {
+
+      .text-description {
+        margin-bottom:20px;
+      }
+
+      .text-main-section {
+        margin-bottom:20px;
+      }
     
-        .hidden {
-          display: none;
-        }
+      .footer__wrapper {
+       display: flex;
+       flex-direction: column;
+       gap:20px;
+      }
+
+      .text-1 {
+        font-size:20px;
+      }
+
+      .text-2 {
+        font-size:20px;
+      }
     
-        .hidden1 {
-          display: block;
-        }
-    
-        body {
-          background-color: yellow;
-          position: absolute;
-          top:-220px;
-        }
-    
-        .description__wrapper {
-          display: flex;
-          width:300px;
-          position: relative;
-          left:30px;
-        }
-    
-        
-        .main-text {
-          font-size:30px;
-        }
-    
-        .akadem {
-          display: none;
-        }
-    
-    
-        .p {
-          font-size:5px;
-          width:10px;
-        }
-    
-        .text {
-          display: flex;
-          justify-content: center;
-          margin-bottom:50px;
-        }
-    
-        .form {
-          display: flex;
-          margin-bottom:50px;
-        }
       }
     /* Конец адаптива */
